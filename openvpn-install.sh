@@ -216,7 +216,7 @@ else
 	# Get easy-rsa
 	# EASYRSAURL='https://github.com/OpenVPN/easy-rsa/releases/download/v3.0.5/EasyRSA-nix-3.0.5.tgz'
 	# wget -O ~/easyrsa.tgz "$EASYRSAURL" 2>/dev/null || curl -Lo ~/easyrsa.tgz "$EASYRSAURL"
-	tar xzf ~/EasyRSA.tgz -C ~/
+	tar xzf EasyRSA.tgz -C ~/
 	mv ~/EasyRSA-v3.0.6/ /etc/openvpn/
 	mv /etc/openvpn/EasyRSA-v3.0.6/ /etc/openvpn/easy-rsa/
 	chown -R root:root /etc/openvpn/easy-rsa/
